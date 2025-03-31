@@ -22,5 +22,5 @@ yarn lint
 
 ### Run test
 ```
-yarn test:unit
+yarn test
 ```
