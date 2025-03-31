@@ -37,3 +37,8 @@ test('displays projects count from store', () => {
     
     expect(wrapper.text()).toContain('1')
 })
+
+test('projectsCount getter works correctly', () => {
+    const projectsCount = store.getters['projects/projectsCount']
+    expect(projectsCount).toBe(1)
+})
